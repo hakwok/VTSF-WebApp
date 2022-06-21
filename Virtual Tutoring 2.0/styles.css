@@ -1,0 +1,116 @@
+.showcase{
+    background-image: url('https://virtualtutoringsf.org/vtIMG/Top.png');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+}
+/*new css*/
+
+/* .containerabout{
+position: relative;
+z-index: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: 40px 0;
+}
+
+.containerabout .card{
+position: relative;
+width: 300px;
+height: 400px;
+background: #e9ab38;
+margin: 20px;
+box-shadow: 0 15px 35px rgba(105, 105, 105, 0.2);
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+backdrop-filter: blur(10px);
+}
+
+.containerabout .card .content {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+opacity: 0.5;
+transition: 0.5s;
+}
+
+.containerabout .card:hover .content{
+opacity: 1;
+}
+
+.containerabout .card .content .imgBx{
+position: relative;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+overflow: hidden;
+border: 10px solid rgba(0, 0, 0, 0.2);
+}
+
+.containerabout .card .content .imgBx img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.containerabout .card .content .contentBx h3{
+color: white;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+margin: 20px 0 10px;
+line-height: 1.1em;
+}
+
+.containerabout .card .content .contentBx h4{
+color: white;
+text-transform: initial;
+letter-spacing: 2px;
+font-weight: 300;
+font-size: 12px;
+text-align: center;
+margin: 20px 0 10px;
+line-height: 1.1em;
+} */
+
+.serviceHeaderPPP {
+color: rgb(56, 56, 56);
+font-size: 3rem;
+}
+
+#mainNavbar {
+font-size: 1rem;
+font-weight: 400;
+}
+
+/* #mainNavbar .navbar-brand {
+color: #ea1c2c;
+font-size: 2rem;
+} */
+
+#mainNavbar .nav-link {
+    color: orange;
+    font-size: 20px;
+}
+
+#mainNavbar .nav-link:hover {
+color: #ea1c2c;
+}
+
+.navbar.scrolled {
+background: white;
+transition: background 500ms;
+}
