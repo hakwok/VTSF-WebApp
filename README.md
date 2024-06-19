@@ -7,8 +7,6 @@ Virtual Tutoring SF (VTSF) is an initiative providing free online tutoring for s
 - [Installation](#installation)
 - [Usage](#usage)
 - [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ### Installation
