@@ -1,0 +1,352 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.cl-aboutUs {
+    padding-top: 10%;
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.cl-about-description {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+#arrow {
+    margin: auto;
+    margin-top: 8rem;
+}
+/* .cl-showcase {
+    background-image: url("https://virtualtutoringsf.org/vtIMG/Top.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+} */
+
+/*new css*/
+
+/* .cl-containerabout{
+position: relative;
+z-index: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: 40px 0;
+}
+
+.cl-containerabout .cl-card{
+position: relative;
+width: 300px;
+height: 400px;
+background: #e9ab38;
+margin: 20px;
+box-shadow: 0 15px 35px rgba(105, 105, 105, 0.2);
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+backdrop-filter: blur(10px);
+}
+
+.cl-containerabout .cl-card .cl-content {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+opacity: 0.5;
+transition: 0.5s;
+}
+
+.cl-containerabout .cl-card:hover .cl-content{
+opacity: 1;
+}
+
+.cl-containerabout .cl-card .cl-content .cl-imgBx{
+position: relative;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+overflow: hidden;
+border: 10px solid rgba(0, 0, 0, 0.2);
+}
+
+.cl-containerabout .cl-card .cl-content .cl-imgBx img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.cl-containerabout .cl-card .cl-content .cl-contentBx h3{
+color: white;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+margin: 20px 0 10px;
+line-height: 1.1em;
+}
+
+.cl-containerabout .cl-card .cl-content .cl-contentBx h4{
+color: white;
+text-transform: initial;
+letter-spacing: 2px;
+font-weight: 300;
+font-size: 12px;
+text-align: center;
+margin: 20px 0 10px;
+line-height: 1.1em;
+} */
+
+.cl-serviceHeaderPPP {
+    color: rgb(56, 56, 56);
+    font-size: 3rem;
+}
+
+#mainNavbar {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* #mainNavbar .cl-navbar-brand {
+color: #ea1c2c;
+font-size: 2rem;
+} */
+
+/* #mainNavbar .cl-nav-link {
+    color: orange;
+    font-size: 20px;
+} */
+
+#mainNavbar .cl-nav-link:hover {
+    color: #ea1c2c;
+}
+
+.cl-navbar.cl-scrolled {
+    background: white;
+    transition: background 500ms;
+}
+
+.cl-textBlock {
+    padding: 20px;
+    background-color: #e6e6e6;
+    border: #cccccc solid 1px;
+    border-radius: 20px;
+    margin: 50px 0px;
+}
+
+.cl-footerRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.cl-newCard {
+    color: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    border: orange solid 1px;
+    background-color: #e9ab38;
+    box-shadow: 0 15px 35px rgb(105 105 105 / 20%);
+    margin: 15px;
+}
+
+.cl-imgBox {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border: orange solid 1px;
+    border-radius: 50%;
+    margin: 30px auto;
+    object-fit: cover;
+}
+/* .cl-front-card {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+.cl-cardAddons {
+    background-color: #e9ab38; 
+    border:#928e8e solid 1 px; 
+    border-top-left-radius: 20px !important; 
+    border-top-right-radius: 20px !important;
+}
+.cl-card-body {
+    background-color: #e9ab38;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cl-card-title {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1.1em;
+}
+
+.cl-card-img-top {
+    object-fit: cover;
+} */
+
+.cl-front-card {
+    max-width: 18rem; 
+    max-height: 500px; 
+    border-radius: 20px; 
+    background-color: #e9ab38;
+    padding: 1.5em 0.5em 0.5em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.cl-front-card img {
+    width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cl-back-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #e9ab38;
+}
+.cl-card-title {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+/* .cl-front-card .cl-btn {
+    border-radius: 2em;
+    background-color: teal;
+    color: #ffffff;
+    padding: 0.5em 1.5em;
+}
+.cl-front-card .cl-btn:hover {
+    background-color: rgba(0, 128, 128, 0.7);
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} */
+
+.cl-newBtn {
+    background: orange;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+/* Container needed to position the button; Adjust the width as needed */
+.cl-container1 {
+    position: relative;
+}
+
+/* Make the image responsive */
+.cl-container1 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.cl-container1 .cl-btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ff6257;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.cl-impactText {
+    font-size: 35px;
+}
+
+.cl-flyerPoster {
+    width: 50%;
+    height: auto;
+}
+.cl-app{
+    margin: auto;
+}
+
+.cl-expand{
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 24px;
+}
+
+.cl-cardRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#popup {
+    display: none; /* Hide the pop-up by default */
+    position: fixed; /* Position the pop-up in the center of the screen */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#popup-trigger {
+    cursor: pointer;
+}
+.cl-grid{
+    display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); grid-row-gap: 12rem; margin: auto; margin-bottom: 7rem; margin-top: 10rem; padding-left: 6rem; padding-right: 6rem;
+}
+@media all and (max-width: 1024px) {
+    body{
+        background: #C6FFDD;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #fa9da0, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #f7a2a5, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .cl-grid{
+        display: block;
+        margin-top: 4rem;
+        padding: 0;
+    }
+    .cl-card{
+        margin-bottom: 3rem;
+    }
+    #wave{
+        display: none;
+    }
+    h1{
+        margin-top: 6rem;
+    }
+    .cl-about-description{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    #arrow{
+        margin-top: 2rem;
+    }
+}

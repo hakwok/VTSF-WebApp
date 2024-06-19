@@ -1,0 +1,277 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+svg path {
+    stroke-width: 0.3;
+}
+
+#circle3 {
+    top: -37rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cl-overflow-hidden {
+    overflow: hidden;
+}
+
+.cl-subheading {
+    font-weight: theme("fontWeight.medium") !important;
+    font-size: theme("fontSize.4xl") !important;
+    line-height: theme("fontSize.4xl") !important;
+    margin-bottom: theme("margin.5") !important;
+}
+
+.cl-filter-peach2 {
+    filter: invert(46%) sepia(30%) saturate(1961%) hue-rotate(356deg) brightness(96%) contrast(92%);
+}
+
+.cl-filter-peach3 {
+    filter: invert(71%) sepia(29%) saturate(5661%) hue-rotate(1deg) brightness(104%) contrast(103%);
+}
+
+.cl-filter-white {
+    filter: invert(98%) sepia(98%) saturate(0%) hue-rotate(33deg) brightness(103%) contrast(104%);
+}
+
+.cl-filter-green1 {
+    filter: invert(21%) sepia(22%) saturate(565%) hue-rotate(108deg) brightness(101%) contrast(87%);
+}
+
+.cl-enroll {
+    padding: 1rem 0.5rem;
+}
+
+.cl-session-title {
+    font-weight: theme("fontWeight.normal") !important;
+    font-size: theme("fontSize.3xl") !important;
+    line-height: theme("fontSize.3xl") !important;
+    margin-top: theme("margin.3") !important;
+    margin-bottom: theme("margin.2") !important;
+}
+
+.cl-overflow-hidden {
+    overflow: hidden;
+}
+
+.cl-card-wrappper {
+    perspective: 100rem;
+}
+
+.cl-card-wrapper > * {
+    pointer-events: none;
+}
+
+.cl-card-wrapper .cl-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.cl-card-wrapper.cl-flipped .cl-card {
+    transform: rotateY(180deg);
+}
+
+.cl-card-wrapper .cl-card .cl-front-card, .cl-card-wrapper .cl-card .cl-back-card {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.cl-card-wrapper .cl-card .cl-back-card {
+    position: absolute;
+    top: 0;
+    transform: rotateY(180deg);
+}
+
+.cl-menu-dropdown {
+    transition: width 0.5s ease;
+    width: 100%;
+}
+
+.cl-menu-dropdown.cl-hide {
+    transition: width 0.5s ease;
+    width: 0%;
+}
+
+.cl-scroll-to-top {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+.cl-scroll-to-top.cl-opacity-0 {
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.cl-carousel-wrapper .cl-carousel {
+    display: flex !important;
+    overflow: hidden !important;
+    flex-flow: row nowrap !important;
+    scroll-snap-type: x mandatory !important;
+    align-items: center !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.cl-carousel-wrapper .cl-carousel > * {
+    text-align: center !important;
+    flex: none !important;
+    object-fit: cover !important;
+    line-height: 50rem !important;
+    width: 100% !important;
+}
+
+.cl-carousel-wrapper .cl-bottom-icons > * {
+    transition: background-color 1s ease, transform 0.25s ease;
+    opacity: 75%;
+}
+
+.cl-carousel-wrapper .cl-bottom-icons > *.cl-selected {
+    background-color: theme("colors.peach3");
+    transition: background-color 1s ease;
+}
+
+.cl-carousel-wrapper .cl-carousel .cl-scroll {
+    animation-name: scrollX;
+    animation-duration: 1s;
+    animation-play-state: running;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.cl-carousel-wrapper .cl-carousel .cl-fast-scroll {
+    animation-name: scrollX;
+    animation-duration: 0.1s;
+    animation-play-state: running;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes scrollX {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media (min-width: 375px) {
+    #circle3 {
+        top: -39rem;
+    }
+
+    .cl-subheading {
+        font-weight: theme("fontWeight.medium") !important;
+        font-size: theme("fontSize.5xl") !important;
+        line-height: theme("fontSize.5xl") !important;
+        margin-bottom: theme("margin.5") !important;
+    }
+
+    .cl-session-title {
+    font-size: theme("fontSize.4xl") !important;
+    line-height: theme("fontSize.4xl") !important;
+    margin-top: theme("margin.3") !important;
+    margin-bottom: theme("margin.2") !important;
+    }
+
+    .cl-enroll {
+        padding: 0.875rem;
+    }
+}
+
+.cl-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 3%;
+}
+
+.cl-rightbox {
+    height: 100%;
+}
+
+.cl-rb-container {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.cl-rb-container ul.cl-rb {
+    width: 100%;
+    padding-right: 9rem;
+    display: inline-block;
+}
+
+.cl-rb-container ul.cl-rb li {
+    list-style: none;
+    margin: auto;
+    margin-left: 10em;
+    min-height: 50px;
+    border-left: 1px dashed rgb(255, 207, 136);
+    padding: 0 0 50px 30px;
+    position: relative;
+}
+
+.cl-rb-container ul.cl-rb li:last-child {
+    border-left: 0;
+}
+
+.cl-rb-container ul.cl-rb li::before {
+    position: absolute;
+    top: 13px;
+    left: -10px;
+    content: " ";
+    border: 8px solid rgb(230, 161, 82);
+    border-radius: 500%;
+    background: #eec161;
+    height: 20px;
+    width: 20px;
+    transition: all 500ms ease-in-out;
+}
+
+.cl-rb-container ul.cl-rb li:hover::before {
+    border-color: #8d6a19;
+    transition: all 1000ms ease-in-out;
+}
+
+ul.cl-rb li .cl-timestamp {
+    color: #c78624;
+    position: relative;
+    width: auto;
+    font-size: 2rem;
+}
+
+.cl-item-title {
+    font-size: 1.75rem;
+    color: black;
+}
+
+
+@media (min-width: 640px) {
+    .cl-subheading {
+        font-weight: theme("fontWeight.medium") !important;
+        font-size: theme("fontSize.6xl") !important;
+        line-height: theme("fontSize.6xl") !important;
+        margin-bottom: theme("margin.5") !important;
+    }
+
+    .cl-session-title {
+        font-size: theme("fontSize.5xl") !important;
+        line-height: theme("fontSize.5xl") !important;
+        margin-bottom: theme("margin.2") !important;
+    }
+
+    .cl-carousel-wrapper .cl-bottom-icons > *:hover {
+        transition: transform 0.25s ease;
+        transform: scale(1.5);
+    }
+}
