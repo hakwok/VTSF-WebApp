@@ -17,7 +17,7 @@ To get a local copy up and running, follow these simple steps.
 
 #### Prerequisites
 
-- Node.js and npm should be installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
+Node.js and npm should be installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
 
 #### Clone the repo
 
