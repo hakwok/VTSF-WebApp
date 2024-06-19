@@ -27,14 +27,20 @@ cd VTSF-WebApp
 ```
 
 #### Install NPM packages  
-```npm install```
+```bash
+npm install
+```
 
-###Usage  
+### Usage    
 To start the development server, run:  
-```npm run dev```
+```bash
+npm run dev
+```
 
 To build the project for production, run:  
-```npm run build```
+```bash
+npm run build
+```
 
 ### Development
 
