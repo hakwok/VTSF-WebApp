@@ -19,6 +19,23 @@ To get a local copy up and running, follow these simple steps.
 
 - Node.js and npm should be installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
 
+#### Clone the repo
+
+```bash
+git clone https://github.com/hakwok/VTSF-WebApp.git
+cd VTSF-WebApp
+```
+
+#### Install NPM packages  
+```npm install```
+
+###Usage  
+To start the development server, run:  
+```npm run dev```
+
+To build the project for production, run:  
+```npm run build```
+
 ### Development
 
 #### Folder Structure
